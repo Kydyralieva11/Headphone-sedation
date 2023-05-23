@@ -1,0 +1,46 @@
+.product{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    .product-headphone{
+        position: absolute;
+        left: -780px;
+        top: -102px;
+        z-index: -2;
+    }
+    // .product-headphone-two{
+    //     position: absolute;
+    // }
+    .product-content{
+        margin-top: 220px;
+        margin-bottom: 220px;
+        p{
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 30px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            max-width: 511px;
+            margin-top: 60px;
+        }
+        .product-network{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 86px;
+            .product-network1{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                h2{
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 12px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
