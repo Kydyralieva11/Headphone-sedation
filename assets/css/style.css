@@ -299,4 +299,15 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1020px) {
+  .product {
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .product .product-headphone-two {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
