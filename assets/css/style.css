@@ -168,5 +168,63 @@
     padding-bottom: 2.5rem;
   }
 }
+.banner {
+  position: relative;
+}
+.banner .banner-content {
+  position: relative;
+  margin-top: 238px;
+}
+.banner .banner-content .title h2 {
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.banner .banner-content .title span {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.banner .banner-content p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #9C9E9D;
+  max-width: 332px;
+  margin-top: 45px;
+}
+.banner .banner-content .banner-btn {
+  background: #433F56;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 36px;
+  gap: 10px;
+  margin-top: 45px;
+}
+.banner .banner-content .banner-btn h2 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.banner .banner-content .line {
+  position: absolute;
+  bottom: -125px;
+  left: 22px;
+}
+.banner .bg-headphone {
+  position: absolute;
+  bottom: -199px;
+  right: -251px;
+  z-index: -1;
+}
 
 /*# sourceMappingURL=style.css.map */
