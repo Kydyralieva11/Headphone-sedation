@@ -37,6 +37,11 @@
             padding: 17px 36px;
             gap: 10px;
             margin-top: 45px;
+            transition: .6s all;
+            &:hover{
+                background: #433f567c;
+                transform: scale(0.9);
+            }
             h2{
                 font-weight: 600;
                 font-size: 12px;
@@ -56,5 +61,31 @@
         bottom: -199px;
         right: -251px;
         z-index: -1;
+    }
+}
+
+
+@media screen and (max-width: 920px){
+    .banner{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+        text-align: center;
+        .banner-content{
+            margin-top: 140px;
+            p{
+                max-width: inherit;
+            }
+            .btn-mobile{
+                display: grid;
+            }
+        }
+        .bg-headphone{
+            display: none;
+        }
     }
 }

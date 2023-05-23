@@ -79,7 +79,6 @@
     .header{
         position: sticky;
         top: 0;
-        background: white;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -114,11 +113,12 @@
             flex-direction: column;
             margin: 0 auto !important;
             &__link{
-                color: #000000 !important;
+                color: white !important;
             }
         }
     }
     .nav_collapse.is-active{
+        background: #433F56;
         max-height: 37.5rem;
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;
