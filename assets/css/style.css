@@ -264,12 +264,16 @@
 .product .product-headphone {
   position: absolute;
   left: -780px;
-  top: -102px;
+  top: -70px;
   z-index: -2;
+}
+.product .product-headphone-two {
+  left: -40px;
+  position: absolute;
+  top: 215px;
 }
 .product .product-content {
   margin-top: 220px;
-  margin-bottom: 220px;
 }
 .product .product-content p {
   font-weight: 500;
@@ -308,6 +312,62 @@
   .product .product-headphone-two {
     display: none;
   }
+}
+.characteristic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.characteristic .characteristic-content h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(90.68deg, #472A3C 0.36%, #CC6830 50.35%, #9D3846 97.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.characteristic .characteristic-content span {
+  font-weight: 300;
+  font-size: 47px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.characteristic .characteristic-content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #9C9E9D;
+  max-width: 311px;
+  margin-top: 52px;
+}
+.characteristic .characteristic-content button {
+  background: #433F56;
+  color: #FFFFFF;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 36px;
+  gap: 10px;
+  margin-top: 45px;
+  transition: 0.6s all;
+}
+.characteristic .characteristic-content button:hover {
+  background: rgba(67, 63, 86, 0.4862745098);
+  transform: scale(0.9);
+}
+.characteristic .characteristic-content button h2 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

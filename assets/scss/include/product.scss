@@ -5,15 +5,17 @@
     .product-headphone{
         position: absolute;
         left: -780px;
-        top: -102px;
+        top: -70px;
         z-index: -2;
     }
-    // .product-headphone-two{
-    //     position: absolute;
-    // }
+    .product-headphone-two{
+        left: -40px;
+        position: absolute;
+        top: 215px;
+    }
     .product-content{
         margin-top: 220px;
-        margin-bottom: 220px;
+        // margin-bottom: 220px;
         p{
             font-weight: 500;
             font-size: 19px;
