@@ -381,5 +381,58 @@
     display: none;
   }
 }
+.emotion {
+  position: relative;
+}
+.emotion .emotion-content {
+  margin-bottom: 2000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.emotion .emotion-content h2 {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.emotion .emotion-content .emotion-title h2 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(90.68deg, #472A3C 0.36%, #CC6830 50.35%, #9D3846 97.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.emotion .emotion-content .emotion-title span {
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.emotion .emotion-content .emotion-title p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  color: #9C9E9D;
+  max-width: 326px;
+  margin-top: 60px;
+}
+.emotion .person {
+  position: absolute;
+  right: 315px;
+  top: 204px;
+}
+.emotion .advantages {
+  position: absolute;
+  top: 714px;
+  right: -540px;
+}
 
 /*# sourceMappingURL=style.css.map */
