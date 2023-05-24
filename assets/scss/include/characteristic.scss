@@ -56,3 +56,15 @@
         }
     }
 }
+
+@media screen and (max-width: 900px){
+    .characteristic{
+        justify-content: center;
+        margin-top: 220px;
+        margin-left: 30px;
+        margin-right: 30px;
+        .characteristic-img{
+            display: none;
+        }
+    }
+}
