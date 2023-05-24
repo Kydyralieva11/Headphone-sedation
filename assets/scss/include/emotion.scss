@@ -1,7 +1,7 @@
 .emotion{
     position: relative;
     .emotion-content{
-        margin-bottom: 2000px;
+        margin-bottom: 1400px;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -51,5 +51,29 @@
         position: absolute;
         top: 714px;
         right: -540px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .advantages{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .emotion{
+        .emotion-content{
+            margin-top: 150px;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: auto;
+            .emotion-title{
+                text-align: center;
+            }
+        }
+        .person{
+            display: none;
+        }
     }
 }

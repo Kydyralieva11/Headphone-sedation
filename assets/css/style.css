@@ -377,6 +377,13 @@
     margin-left: 30px;
     margin-right: 30px;
   }
+  .characteristic .characteristic-content {
+    text-align: center;
+  }
+  .characteristic .characteristic-content button {
+    margin: auto;
+    margin-top: 45px;
+  }
   .characteristic .characteristic-img {
     display: none;
   }
@@ -385,7 +392,7 @@
   position: relative;
 }
 .emotion .emotion-content {
-  margin-bottom: 2000px;
+  margin-bottom: 1400px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -433,6 +440,27 @@
   position: absolute;
   top: 714px;
   right: -540px;
+}
+
+@media screen and (max-width: 1440px) {
+  .advantages {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .emotion .emotion-content {
+    margin-top: 150px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: auto;
+  }
+  .emotion .emotion-content .emotion-title {
+    text-align: center;
+  }
+  .emotion .person {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
